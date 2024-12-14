@@ -1,0 +1,13 @@
+try:
+  num1 = int(input("enter numerator: "))
+  num2 =int(input("enter denominator: "))
+  result = num1 / num2
+  print("Result:", result)
+except ZeroDivisionError:
+   print("cannot divide by zero.")
+except ValueError:
+  print("invalid input! Enter numeric values")
+
+enter numerator: 6
+enter denominator: 7
+Result: 0.8571428571428571
