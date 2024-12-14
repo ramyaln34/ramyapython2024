@@ -1,0 +1,6 @@
+file = open("/content/drive/MyDrive/ramya.txt","r")
+content = file.read()
+print(content)
+file.close()
+
+  
