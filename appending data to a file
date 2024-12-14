@@ -1,0 +1,8 @@
+with  open("/content/drive/MyDrive/ramya.txt","a") as file:
+  file.write("lets learn file handling.\n")
+
+with open("/content/drive/MyDrive/ramya.txt","r") as file:
+    print(file.read())
+
+Python is awesome!
+lets learn file handling.
