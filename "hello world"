@@ -1,0 +1,8 @@
+# Open the file in write mode (it will create the file if it doesn't exist)
+with open('data.txt', 'w') as file:
+    # Write the string "hello, world" into the file
+    file.write("hello, world")
+    
+print("File 'data.txt' has been created and 'hello, world' has been written into it.")
+
+File 'data.txt' has been created and 'hello, world' has been written into it.
