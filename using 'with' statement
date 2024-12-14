@@ -1,0 +1,6 @@
+with open("/content/drive/MyDrive/ramya.txt" , "r") as file:
+   contect= file.read()
+print(contect)
+
+hello,world!
+This is an appended line.
