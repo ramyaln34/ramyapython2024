@@ -1,0 +1,15 @@
+def check_positive(number):
+  if number < 0:
+    raise NegativeNumberError("Negative entered.")
+
+
+try:
+   num = int(input("enter a postive:"))
+   check_positive(num)
+   print("you entered a postive number.")
+except NegativeNumberError as e:
+   print(e)
+
+enter a postive:8
+you entered a postive number.
+
