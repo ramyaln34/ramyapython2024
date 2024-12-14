@@ -1,0 +1,7 @@
+with open("/content/drive/MyDrive/ramya.txt","w") as file:
+  file.write("Python is awesome!\n")
+
+with open("/content/drive/MyDrive/ramya.txt", "r") as file:
+   print(file.read())
+
+Python is awesome!
